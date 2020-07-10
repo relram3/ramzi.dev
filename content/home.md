@@ -7,7 +7,6 @@ skills:
   - name: Angular 6+
   - name: AngularJS
   - name: NextJS
-  - name: NextJS
   - name: Javascript
   - name: Typescript
   - name: Node
