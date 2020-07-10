@@ -25,6 +25,7 @@ skills:
   - name: Segment
   - name: Bamboo
   - name: NetlifyCMS
+  - name: Samer
 ---
 
 Welcome to my portfolio page about my work.
