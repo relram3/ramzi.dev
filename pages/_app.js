@@ -1,5 +1,6 @@
 import "../styles/index.css";
 import "../styles/skills.css";
+import "../styles/projects.css";
 
 // This default export is required in a new `pages/_app.js` file.
 export default function MyApp({ Component, pageProps }) {

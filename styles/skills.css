@@ -2,12 +2,41 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 0 40px 0;
+  padding-bottom: 40px;
 }
 .skills_header {
   font-size: 36px;
+  font-weight: 500;
+  letter-spacing: 2px;
   font-family: "Raleway";
   margin: 25px;
+}
+
+.skills_filter {
+  display: flex;
+  width: 70%;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.skills_filter-tab {
+  font-size: 16px;
+  font-family: "Raleway";
+  margin: 5px 40px 25px 40px;
+  border-bottom: 1px solid var(--text-color-tertiary);
+  transition: all 0.3s ease-in-out;
+}
+
+.active {
+  color: var(--text-color-tertiary);
+  border-bottom: 1px solid black;
+  transform: scale(1.2);
+}
+
+.skills_filter-tab:hover {
+  color: var(--text-color-tertiary);
+  border-bottom: 1px solid black;
+  transform: scale(1.2);
 }
 
 .skills_section {
@@ -35,4 +64,45 @@
   border: 1px solid none;
   color: white;
   transform: scale(1.2);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.activePill {
+  background-color: var(--text-color-tertiary);
+  border: 1px solid none;
+  color: white;
+}
+
+@media only screen and (max-width: 780px) {
+  .skills_filter {
+    width: 90%;
+  }
+
+  .skills_filter-tab {
+    margin: 5px 10px 25px 10px;
+  }
+
+  .skills_pill {
+    padding: 0 20px;
+    margin: 4px;
+    height: 30px;
+    font-size: 16px;
+    line-height: 30px;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .skills_pill {
+    padding: 0 10px;
+    margin: 4px;
+    height: 30px;
+    font-size: 16px;
+    line-height: 30px;
+    font-size: 12px;
+  }
+
+  .skills_section {
+    width: 70%;
+  }
 }

@@ -3,7 +3,7 @@ import { Component } from "react";
 // import { attributes, react as HomeContent } from '../content/home.md';
 
 import Landing from "./Landing";
-import Navbar from "./Navbar";
+import Projects from "./Projects";
 import Skills from "./Skills";
 
 export default function Home() {
@@ -17,8 +17,8 @@ export default function Home() {
         ></link>
       </Head>
       <Landing />
-      {/* <Navbar /> */}
       <Skills />
+      <Projects />
     </>
   );
 }
